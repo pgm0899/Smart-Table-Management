@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Table no"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <Spinner
+        android:id="@+id/spinnertableno"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/white"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="144dp"
+        android:layout_height="77dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="Bill Outstanding"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="Coupon"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:text="Payable"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text=""
+        android:background="@drawable/white"
+        />
+
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="300dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:text=""
+        android:background="@drawable/white"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="500dp"
+        android:text="Display Bill"
+        android:background="@drawable/custom_button"/>
+
+
+
+
+</RelativeLayout>

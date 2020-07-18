@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Table No."
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="To Be Served"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="380dp"
+        android:gravity="center"
+        android:text="Quantity"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/white"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/white"/>
+
+    <EditText
+        android:id="@+id/editTextquan"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:text="1"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/bt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:background="@drawable/darkgreenbtns"
+        android:text="View" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="500dp"
+        android:text="Order"
+        android:background="@drawable/darkgreenbtns"/>
+
+    <Button
+        android:id="@+id/buttonDone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="600dp"
+        android:text="Done"
+        android:background="@drawable/darkgreenbtns"/>
+
+
+</RelativeLayout>
